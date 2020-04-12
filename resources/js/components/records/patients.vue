@@ -242,6 +242,7 @@
               this.editMode = true;
               this.form.reset();
               $('#addNew').modal('show');
+              console.log(data);
               this.specificPatient = data.data
               this.form.fill(this.specificPatient);
             })
